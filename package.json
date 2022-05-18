@@ -1,0 +1,55 @@
+{
+  "name": "frontend-quested",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gogaevalex/frontend-quested.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gogaevalex/frontend-quested/issues"
+  },
+  "homepage": "https://gitlab.com/gogaevalex/frontend-quested#readme",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@date-io/date-fns": "^2.13.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/lab": "^5.0.0-alpha.75",
+    "@mui/material": "^5.5.2",
+    "axios": "^0.26.0",
+    "date-fns": "^2.28.0",
+    "formik": "^2.2.9",
+    "history": "^5.3.0",
+    "picus": "^1.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.3.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react-svg-loader": "^3.0.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
